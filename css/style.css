@@ -89,7 +89,7 @@ section {
 --------------------*/
 
 .navbar-default {
-	background-color: #222;
+	background-color: #3F97C9;
 	border-color: transparent
 }
 .navbar-default .navbar-brand {
@@ -526,6 +526,9 @@ figure.effect-bubba:hover p {
 /*--------------------
 4.6. Team
 --------------------*/
+.owner-bg {
+    background-color: #eaf4fa;
+}
 .team-item {
     text-align: center;
     background-color: #fff;
@@ -604,7 +607,7 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 footer {
     padding: 30px;
-    background-color: #000;    
+    background-color: #27678b;    
 }
 
 footer p {
