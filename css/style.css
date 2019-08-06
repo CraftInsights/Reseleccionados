@@ -76,7 +76,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 @media (min-width: 768px) {
 	section {
-	    padding: 150px 0;
+	padding: 150px 0;
 	}
 }
 
@@ -187,8 +187,8 @@ header .intro-text {
 
 @media (min-width: 768px) {
 	header .intro-text {
-	    padding-top: 300px;
-	    padding-bottom: 200px;
+	padding-top: 300px;
+	padding-bottom: 200px;
 	}
 }
 
@@ -202,11 +202,11 @@ header .intro-text .intro-lead-in {
 
 @media (min-width: 768px) {
 	header .intro-text .intro-lead-in {
-	    font-family: "Playfair Display",sans-serif;
-	    font-style: italic;
-	    font-size: 40px;
-	    line-height: 40px;
-	    margin-bottom: 25px;
+	font-family: "Playfair Display",sans-serif;
+	font-style: italic;
+	font-size: 40px;
+	line-height: 40px;
+	margin-bottom: 25px;
 	}
 }
 
@@ -220,11 +220,11 @@ header .intro-text .intro-heading {
 
 @media (min-width: 768px) {
 	header .intro-text .intro-heading {
-	    text-transform: uppercase;
-	    font-weight: 700;
-	    font-size: 75px;
-	    line-height: 75px;
-	    margin-bottom: 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 75px;
+	line-height: 75px;
+	margin-bottom: 50px;
 	}
 }
 
@@ -605,12 +605,88 @@ section#contact .form-group input, section#contact .form-group textarea {
 5. Footer
 --------------------*/
 
-footer {
-    padding: 30px;
-    background-color: #27678b;    
+[role="contentinfo"] {
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+    position: relative;
+    background: #27678b;
+    clear: both;
+    margin-top: 0px;
 }
 
-footer p {
+.footer {
+    background: #27678b;
+    margin-top: 20px;
+    padding: 10px 0 30px;
+    color: #74b3d8;  
+}
+
+[role="contentinfo"] .container {
+    overflow: hidden;
+}
+
+[role="contentinfo"] .footer .footer-logo {
+    float: left;
+    width: 33%;
+}
+
+.mdzr-svg [role="contentinfo"] .footer .logo {
+    background-position: left center;
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+.mdzr-svg [role="contentinfo"] .footer .logo {
+    background: url(../images/RE_logo_2.png) center center no-repeat;
+}
+
+[role="contentinfo"] .thanks {
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: #74b3d8;
+    margin: 0;
+    padding: 0;
+}
+
+[role="contentinfo"] ul {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    list-style: none;
+    margin: 15px 0 0 0;
+    padding: 0 0 30px;
+}
+
+.footer .thanks li {
+    background: none;
+    float: left;
+    clear: none;
+    padding: 0 3% 0 0;
+    width: 30%;
+    margin: 0;
+    display: block;
+    clear: both;
+}
+
+.footer .thanks span {
+    display: block;
+    height: 24px;
+    line-height: 36px;
+    padding-right: 12px;
+    white-space: nowrap;
+}
+
+
+
+.thanks .GithubPages {
+    background: url(../images/Hosting_Githubpages.png) no-repeat left center;
+}
+
+
+
+
+
+
+.footer p {
     color: #B7B7B7;
     margin: 0;
     font-size: 10px;
@@ -619,16 +695,17 @@ footer p {
     letter-spacing: 1.6px;
 }
 
-footer p a {
+.footer p a {
     color: #fff;
 }
 
-footer p a span {
-    color: #FF9F46;
+.footer p a span {
+    color: #0b1d28;
     font-size: 10px;
     letter-spacing: 1px;
     font-weight: 700;
 }
+
 
 /*--------------------
 6. Modal
@@ -709,7 +786,7 @@ font-size: 11px;
 
 .btn-xl {
     color: #fff;
-     background-color: #726FB9;
+    background-color: #726FB9;
     border-color: #726FB9;
     font-family: "Robot",sans-serif;
     text-transform: uppercase;
