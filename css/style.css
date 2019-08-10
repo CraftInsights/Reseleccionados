@@ -360,6 +360,10 @@ figcaption {
     height: 100%;	
 }
 
+.portfolio {
+    background-image: url(../images/traffic.jpg);
+}
+
 .ot-portfolio-item figure figcaption > a {
     z-index: 1000;
     text-indent: 200%;
@@ -571,6 +575,7 @@ figure.effect-bubba:hover p {
 section#contact form {
     margin-top: 15px;
 }
+
 section#contact.form-group {
 margin-bottom: 25px;
 }
@@ -604,6 +609,31 @@ section#contact .form-group input, section#contact .form-group textarea {
 /*--------------------
 5. Footer
 --------------------*/
+[role="contentinfo"] h2 {
+    font-size:1.6rem;
+    border-top:1px solid #CFE3DC;
+    color:#fff;
+    font-weight:700;
+    margin-top:20px;
+    padding:30px 0 10px;
+}
+    
+[role="contentinfo"] ul {
+    font-size:1.4rem;
+    font-weight:400;
+    list-style:none;
+    margin:15px 0 0;
+    padding:0 0 30px;
+}
+    
+[role="contentinfo"] ul a {
+    color:#F1FFF7;
+    text-decoration:none;
+}
+    
+[role="contentinfo"] ul a:hover,[role="contentinfo"] ul a:active,[role="contentinfo"] ul a:focus {
+    text-decoration:underline;
+}
 
 [role="contentinfo"] {
     font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
@@ -613,11 +643,11 @@ section#contact .form-group input, section#contact .form-group textarea {
     margin-top: 0px;
 }
 
-.footer {
+[role="contentinfo"] .footer {
     background: #27678b;
     margin-top: 20px;
-    padding: 10px 0 30px;
     color: #74b3d8;  
+    padding: 10px 0 30px;
 }
 
 [role="contentinfo"] .container {
@@ -625,68 +655,145 @@ section#contact .form-group input, section#contact .form-group textarea {
 }
 
 [role="contentinfo"] .footer .footer-logo {
-    float: left;
-    width: 33%;
+    float:left;
+    width:33%;
 }
-
+    
+[role="contentinfo"] .footer .logo {
+    margin-right:0;
+    margin-top:28px;
+}
+    
 .mdzr-svg [role="contentinfo"] .footer .logo {
-    background-position: left center;
-    margin-right: 0;
-    margin-top: 20px;
+    background-position:left center;
+    margin-right:0;
+    margin-top:20px;
 }
-
-.mdzr-svg [role="contentinfo"] .footer .logo {
-    background: url(../images/RE_logo_2.png) center center no-repeat;
+    
+[role="contentinfo"] .logo {
+    font-size:4rem;
+    font-family:Roboto, Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+    background:url(../images/RE_logo_3.png) 0 0 no-repeat;
+    color:#fff;
+    display:block;
+    font-weight:700;
+    height:50px;
+    overflow:hidden;
+    text-decoration:none;
+    text-indent:100%;
+    width:142px;
+    margin:10px;
 }
-
+    
+.mdzr-svg [role="contentinfo"] .logo {
+    background:url(../images/RE_logo_2.svg) center center no-repeat;
+    height:39px;
+    width:109px;
+}
+    
 [role="contentinfo"] .thanks {
-    font-size: 12px;
-    font-size: 1.2rem;
-    color: #74b3d8;
-    margin: 0;
-    padding: 0;
+    display: inline-block;
+    font-size:1.2rem;
+    color:#fff;
+    margin:0;
+    padding:0;
+}
+    
+[role="contentinfo"] .thanks li {
+    display:block;
+    clear:both;
+    margin:0;
+    padding:17px 10px 11px;
+}
+    
+[role="contentinfo"] .thanks li span.ampersand {
+    line-height:24px;
+}
+    
+[role="contentinfo"] .thanks span {
+    display:block;
+    height:24px;
+    line-height:36px;
+    padding-right:12px;
+    white-space:nowrap;
+}
+    
+[role="contentinfo"] .thanks a {
+    display:block;
+    height:33px;
+    overflow:hidden;
+    text-indent:-200px;
+    width:94px;
+}
+    
+[role="contentinfo"] .thanks a.Github {
+    background:url(../images/githublogo.png) no-repeat left center;
+}
+    
+.mdzr-svg [role="contentinfo"] .thanks a.Github {
+    background:url(../images/Hosting_Githubpages.svg) no-repeat left center;
 }
 
-[role="contentinfo"] ul {
-    font-size: 14px;
-    font-size: 1.4rem;
-    font-weight: 400;
-    list-style: none;
-    margin: 15px 0 0 0;
-    padding: 0 0 30px;
+[role="contentinfo"] .thanks2 {
+    display: inline-block;
+    font-size:1.2rem;
+    color:#fff;
+    margin:0;
+    padding:0;
 }
 
-.footer .thanks li {
-    background: none;
-    float: left;
-    clear: none;
-    padding: 0 3% 0 0;
-    width: 30%;
-    margin: 0;
-    display: block;
-    clear: both;
+[role="contentinfo"] .thanks2 li {
+    display:block;
+    clear:both;
+    margin:0;
+    padding:17px 10px 11px;
+}
+    
+[role="contentinfo"] .thanks2 li span.ampersand {
+    line-height:24px;
+}
+    
+[role="contentinfo"] .thanks2 span {
+    display:block;
+    height:24px;
+    line-height:36px;
+    padding-right:12px;
+    white-space:nowrap;
+}
+    
+[role="contentinfo"] .thanks2 a {
+    display:block;
+    height:33px;
+    overflow:hidden;
+    text-indent:-200px;
+    width:94px;
 }
 
-.footer .thanks span {
-    display: block;
-    height: 24px;
-    line-height: 36px;
-    padding-right: 12px;
-    white-space: nowrap;
+[role="contentinfo"] .thanks2 a.Namecheap {
+    background:url(../images/Namecheap.png) no-repeat left center;
 }
 
-
-
-.thanks .GithubPages {
-    background: url(../images/Hosting_Githubpages.png) no-repeat left center;
+.mdzr-svg [role="contentinfo"] .thanks2 a.Namecheap {
+    background:url(../images/Namecheap.svg) no-repeat left center;
 }
 
+[role="contentinfo"] .copyright {
+    font-size:1.2rem;
+    clear:both;
+    margin:20px 0 0 10px;
+}
+    
+[role="contentinfo"] .copyright a {
+    color:#B7B7B7;
+}
 
-
-
+[role="contentinfo"] .thanks li.design span.ampersand.mooz,[role="contentinfo"] .thanks li.design a.mooz,.layout-2col:after,.list-image li:after {
+    clear:both;
+}
 
 
 .footer p {
+    display: inline-block;
     color: #B7B7B7;
     margin: 0;
     font-size: 10px;
@@ -694,9 +801,8 @@ section#contact .form-group input, section#contact .form-group textarea {
     font-weight: 500;
     letter-spacing: 1.6px;
 }
-
-.footer p a {
-    color: #fff;
+.footer p.copyright{
+    color: #B7B7B7;
 }
 
 .footer p a span {
