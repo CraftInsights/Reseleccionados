@@ -23,6 +23,32 @@ body {
 	overflow-x: hidden;
 }
 
+li {
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: auto;
+}
+p {
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: auto;
+}
 ul { padding: 0; margin: 0; }
 figure { margin: 0; }
 p:last-child { margin-bottom: 0; }
@@ -80,9 +106,9 @@ a:focus {
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	-ms-flex-pack: justify;
-	    justify-content: space-between;
+	justify-content: space-between;
 	padding-left: 10px;
 	padding-right: 10px;
 	background-color: rgba(255,255,255,0.7);
@@ -109,9 +135,9 @@ button:focus { outline: none; }
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-align: center;
-	    align-items: center;
+	align-items: center;
 	-ms-flex-pack: center;
-	    justify-content: center;
+	justify-content: center;
 	width: auto;
 }
 
@@ -145,7 +171,7 @@ button:focus { outline: none; }
 
 /* Background & menu colors */
 .cd-hero-slider li:nth-of-type(1) { background-color: rgba(56, 182, 230, 0.62); }
-.cd-hero-slider li:nth-of-type(2) { background-color: rgba(237, 84, 76, 0.62); }
+.cd-hero-slider li:nth-of-type(2) { background-color: rgba(22, 181, 163, 0.62); }
 .cd-hero-slider li:nth-of-type(3) { background-color: rgba(234, 163, 25, 0.62); }
 .cd-hero-slider li:nth-of-type(4) { background-color: rgba(22, 181, 163, 0.62); }
 .cd-hero-slider li:nth-of-type(5) { background-color: rgba(68, 127, 202, 0.62); }
@@ -161,7 +187,7 @@ button:focus { outline: none; }
 .cd-slider-nav .nav-item:nth-of-type(2) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(2) .nav-link:focus {
 			
-	background-color: #ed544c;
+	background-color: #16b5a3;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(3).selected .nav-link,
